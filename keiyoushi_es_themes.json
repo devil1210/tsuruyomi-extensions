@@ -1,0 +1,662 @@
+[
+  {
+    "Folder": "akaya",
+    "Name": "AKAYA",
+    "Theme": "custom",
+    "BaseUrl": "https://akaya.io"
+  },
+  {
+    "Folder": "anzmanga",
+    "Name": "AnzManga",
+    "Theme": "mmrcms",
+    "BaseUrl": "https://www.anzmanga25.com"
+  },
+  {
+    "Folder": "apollcomics",
+    "Name": "ApollComics",
+    "Theme": "madara",
+    "BaseUrl": "https://apollcomics.es"
+  },
+  {
+    "Folder": "asialotus",
+    "Name": "Asia Lotus",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://asialotuss.com"
+  },
+  {
+    "Folder": "barmanga",
+    "Name": "BarManga",
+    "Theme": "madara",
+    "BaseUrl": "https://archiviumbar.com"
+  },
+  {
+    "Folder": "begatranslation",
+    "Name": "Bega Translation",
+    "Theme": "madara",
+    "BaseUrl": "https://begatranslation.com"
+  },
+  {
+    "Folder": "bloomscans",
+    "Name": "Bloom Scans",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://bloomscans.com"
+  },
+  {
+    "Folder": "bokugentranslation",
+    "Name": "BokugenTranslation",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://bokugents.com"
+  },
+  {
+    "Folder": "bymichiscan",
+    "Name": "Bymichi Scan",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://bymichiby.com"
+  },
+  {
+    "Folder": "capibaratraductor",
+    "Name": "CapibaraTraductor",
+    "Theme": "custom",
+    "BaseUrl": "https://capibaratraductor.com"
+  },
+  {
+    "Folder": "catharsisworld",
+    "Name": "Catharsis World",
+    "Theme": "custom",
+    "BaseUrl": ""
+  },
+  {
+    "Folder": "catmanhwas",
+    "Name": "Catoons",
+    "Theme": "custom",
+    "BaseUrl": "https://cattoons.org"
+  },
+  {
+    "Folder": "celestialmoon",
+    "Name": "Celestial Moon",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://celestialmoonscan.es"
+  },
+  {
+    "Folder": "cerberusseries",
+    "Name": "Cerberus Series",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://legionscans.com/wp"
+  },
+  {
+    "Folder": "chochox",
+    "Name": "ChoChoX",
+    "Theme": "vercomics",
+    "BaseUrl": "https://chochox.com"
+  },
+  {
+    "Folder": "codearc",
+    "Name": "Code Arc Mangas",
+    "Theme": "custom",
+    "BaseUrl": "https://mangas.codearctraducciones.com"
+  },
+  {
+    "Folder": "colorcitoscan",
+    "Name": "Colorcito Toons",
+    "Theme": "custom",
+    "BaseUrl": "https://colorcitotoons.site"
+  },
+  {
+    "Folder": "darkroomfansub",
+    "Name": "Dark Room Fansub",
+    "Theme": "zeistmanga",
+    "BaseUrl": "https://lector-darkroomfansub.blogspot.com"
+  },
+  {
+    "Folder": "datgarscanlation",
+    "Name": "Dat-Gar Scan",
+    "Theme": "zeistmanga",
+    "BaseUrl": "https://datgarscanlation.blogspot.com"
+  },
+  {
+    "Folder": "doujinhentai",
+    "Name": "DoujinHentai",
+    "Theme": "custom",
+    "BaseUrl": "https://doujinhentai.net"
+  },
+  {
+    "Folder": "doujinshell",
+    "Name": "DoujinsHell",
+    "Theme": "madara",
+    "BaseUrl": "https://doujinshell.net"
+  },
+  {
+    "Folder": "dragontranslationorg",
+    "Name": "DragonTranslation.org",
+    "Theme": "madara",
+    "BaseUrl": "https://dragontranslation.org"
+  },
+  {
+    "Folder": "dynasty",
+    "Name": "Dynasty",
+    "Theme": "custom",
+    "BaseUrl": "https://manhuako.net"
+  },
+  {
+    "Folder": "emperorscan",
+    "Name": "Emperor Scan",
+    "Theme": "custom",
+    "BaseUrl": "https://imperiomanhwa.com"
+  },
+  {
+    "Folder": "enchiladascan",
+    "Name": "EnchiladaScan",
+    "Theme": "custom",
+    "BaseUrl": "https://enchiladascan.github.io/enchiladaweb"
+  },
+  {
+    "Folder": "esmi2manga",
+    "Name": "Es.Mi2Manga",
+    "Theme": "madara",
+    "BaseUrl": "https://es.mi2manga.com"
+  },
+  {
+    "Folder": "eternalmangas",
+    "Name": "EternalMangas",
+    "Theme": "custom",
+    "BaseUrl": "https://eternalmangas.org"
+  },
+  {
+    "Folder": "gistamishouse",
+    "Name": "Gistamis House",
+    "Theme": "zeistmanga",
+    "BaseUrl": "https://gistamishousefansub.blogspot.com"
+  },
+  {
+    "Folder": "hadesnofansub",
+    "Name": "Hades no Fansub",
+    "Theme": "madara",
+    "BaseUrl": "https://lectorhades.latamtoon.com"
+  },
+  {
+    "Folder": "haremdekira",
+    "Name": "Harem de Kira",
+    "Theme": "madara",
+    "BaseUrl": "https://kiraproject.lat"
+  },
+  {
+    "Folder": "heavenmanga",
+    "Name": "HeavenManga",
+    "Theme": "custom",
+    "BaseUrl": "https://heavenmanga.com"
+  },
+  {
+    "Folder": "hentaimode",
+    "Name": "HentaiMode",
+    "Theme": "custom",
+    "BaseUrl": "https://hentaimode.com"
+  },
+  {
+    "Folder": "houseofotakus",
+    "Name": "House Of Otakus",
+    "Theme": "madara",
+    "BaseUrl": "https://houseofotakusv2.xyz"
+  },
+  {
+    "Folder": "ikigaimangas",
+    "Name": "Ikigai Mangas",
+    "Theme": "custom",
+    "BaseUrl": ""
+  },
+  {
+    "Folder": "ikuhentai",
+    "Name": "Ikuhentai",
+    "Theme": "custom",
+    "BaseUrl": "https://ikuhentai.net"
+  },
+  {
+    "Folder": "infrafandub",
+    "Name": "InfraFandub",
+    "Theme": "madara",
+    "BaseUrl": "https://infrafandub.com"
+  },
+  {
+    "Folder": "inmanga",
+    "Name": "InManga",
+    "Theme": "custom",
+    "BaseUrl": "https://inmanga.com"
+  },
+  {
+    "Folder": "inmortalscan",
+    "Name": "Inmortal Scan",
+    "Theme": "madara",
+    "BaseUrl": "https://scan-inmortal.com"
+  },
+  {
+    "Folder": "insanosscan",
+    "Name": "InsanosScan",
+    "Theme": "custom",
+    "BaseUrl": "https://insanoslibrary.com"
+  },
+  {
+    "Folder": "inventariooculto",
+    "Name": "Inventario Oculto",
+    "Theme": "madara",
+    "BaseUrl": "https://inventariooculto.com"
+  },
+  {
+    "Folder": "jeazscans",
+    "Name": "Jeaz Scans",
+    "Theme": "custom",
+    "BaseUrl": "https://lectorhub.j5z.xyz"
+  },
+  {
+    "Folder": "kazokuden",
+    "Name": "Kazoku Den",
+    "Theme": "madara",
+    "BaseUrl": "https://www.kazokuden.com"
+  },
+  {
+    "Folder": "kumanga",
+    "Name": "Kumanga",
+    "Theme": "custom",
+    "BaseUrl": "https://www.kumanga.com"
+  },
+  {
+    "Folder": "lectorasteria",
+    "Name": "Lector Asteria",
+    "Theme": "moonlighttl",
+    "BaseUrl": "https://visor.chifa-tong.online"
+  },
+  {
+    "Folder": "lectorjpg",
+    "Name": "LectorJPG",
+    "Theme": "custom",
+    "BaseUrl": "https://visorjpg.lat"
+  },
+  {
+    "Folder": "lectormangalat",
+    "Name": "LectorManga.lat",
+    "Theme": "custom",
+    "BaseUrl": "https://lector-mangas.lat"
+  },
+  {
+    "Folder": "lectormonline",
+    "Name": "MangoLibreria",
+    "Theme": "custom",
+    "BaseUrl": "https://lectorfenix.com"
+  },
+  {
+    "Folder": "lectortmounoriginal",
+    "Name": "LectorTMO (unoriginal)",
+    "Theme": "custom",
+    "BaseUrl": "https://lectortmo.vip"
+  },
+  {
+    "Folder": "lectorxd",
+    "Name": "LectorXD",
+    "Theme": "custom",
+    "BaseUrl": "https://lectorxd.com"
+  },
+  {
+    "Folder": "leercapitulo",
+    "Name": "LeerCapitulo",
+    "Theme": "custom",
+    "BaseUrl": "https://www.leercapitulo.co"
+  },
+  {
+    "Folder": "leermangaesp",
+    "Name": "LeerMangaEsp",
+    "Theme": "custom",
+    "BaseUrl": "https://mangalect.org"
+  },
+  {
+    "Folder": "leermanhwas",
+    "Name": "LeerManhwas",
+    "Theme": "yiimanga",
+    "BaseUrl": "https://leermanhwas.com"
+  },
+  {
+    "Folder": "lmtoonline",
+    "Name": "Lmtos",
+    "Theme": "custom",
+    "BaseUrl": "https://lmtos.net"
+  },
+  {
+    "Folder": "lolivault",
+    "Name": "Lolivault",
+    "Theme": "foolslide",
+    "BaseUrl": "https://lector.lolivault.net"
+  },
+  {
+    "Folder": "lunapieces",
+    "Name": "Luna Pieces",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://lunapiecesfansub.com"
+  },
+  {
+    "Folder": "mangacrab",
+    "Name": "Manga Crab",
+    "Theme": "custom",
+    "BaseUrl": "https://es.mangacrab.org"
+  },
+  {
+    "Folder": "mangamx",
+    "Name": "MangaOni",
+    "Theme": "custom",
+    "BaseUrl": "https://manga-oni.com"
+  },
+  {
+    "Folder": "mangaromance",
+    "Name": "Manga Romance",
+    "Theme": "madara",
+    "BaseUrl": "https://mangaromance19.com"
+  },
+  {
+    "Folder": "mangashiina",
+    "Name": "Manga Mukai",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://mangamukai.com"
+  },
+  {
+    "Folder": "mangasin",
+    "Name": "Mangas.in",
+    "Theme": "mmrcms",
+    "BaseUrl": "https://m440.in"
+  },
+  {
+    "Folder": "mangasnosekai",
+    "Name": "Mangas No Sekai",
+    "Theme": "madara",
+    "BaseUrl": "https://mangasnosekai.com"
+  },
+  {
+    "Folder": "mangatv",
+    "Name": "Manga  TV",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://mangatv.net"
+  },
+  {
+    "Folder": "manhuaonline",
+    "Name": "SamuraiScan",
+    "Theme": "madara",
+    "BaseUrl": "https://samurai.j5z.xyz"
+  },
+  {
+    "Folder": "manhwalatino",
+    "Name": "Manhwa-Latino",
+    "Theme": "madara",
+    "BaseUrl": ""
+  },
+  {
+    "Folder": "manhwaonline",
+    "Name": "ManhwaOnline",
+    "Theme": "madara",
+    "BaseUrl": "https://manhwa-online.com"
+  },
+  {
+    "Folder": "manhwaweb",
+    "Name": "ManhwaWeb",
+    "Theme": "custom",
+    "BaseUrl": "https://manhwaweb.com"
+  },
+  {
+    "Folder": "mantrazscan",
+    "Name": "Mantraz Scan",
+    "Theme": "custom",
+    "BaseUrl": "https://mantrazscanss.lat"
+  },
+  {
+    "Folder": "marmota",
+    "Name": "Marmota",
+    "Theme": "madara",
+    "BaseUrl": "https://marmota.me"
+  },
+  {
+    "Folder": "menudofansub",
+    "Name": "Menudo-Fansub",
+    "Theme": "foolslide",
+    "BaseUrl": "https://www.menudo-fansub.com"
+  },
+  {
+    "Folder": "mhscans",
+    "Name": "MHScans",
+    "Theme": "madara",
+    "BaseUrl": "https://mhscans.com"
+  },
+  {
+    "Folder": "monopolyscan",
+    "Name": "Monopoly Scan",
+    "Theme": "madara",
+    "BaseUrl": "https://monopolymanhua.com"
+  },
+  {
+    "Folder": "mundomanhwa",
+    "Name": "Mundo Manhwa",
+    "Theme": "madara",
+    "BaseUrl": "https://mundomanhwa.com"
+  },
+  {
+    "Folder": "nartag",
+    "Name": "Rncalation",
+    "Theme": "custom",
+    "BaseUrl": "https://rncalation.online"
+  },
+  {
+    "Folder": "nekoscans",
+    "Name": "NekoScans",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://nekoproject.org"
+  },
+  {
+    "Folder": "nexusscanlation",
+    "Name": "NexusScanlation",
+    "Theme": "custom",
+    "BaseUrl": "https://nexusscanlation.com"
+  },
+  {
+    "Folder": "novamanhwa",
+    "Name": "Nova Manhwas",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://novamanhwa.cc"
+  },
+  {
+    "Folder": "olympusscanlation",
+    "Name": "Olympus Scanlation",
+    "Theme": "custom",
+    "BaseUrl": ""
+  },
+  {
+    "Folder": "onfmangas",
+    "Name": "ONF MANGAS",
+    "Theme": "custom",
+    "BaseUrl": "https://onfmangas.com"
+  },
+  {
+    "Folder": "orckumangas",
+    "Name": "Orcku Mangas",
+    "Theme": "custom",
+    "BaseUrl": "https://orckumangas.com"
+  },
+  {
+    "Folder": "platinumlilyscan",
+    "Name": "Platinum Lily Scan",
+    "Theme": "custom",
+    "BaseUrl": "https://platinumlilyscan.com"
+  },
+  {
+    "Folder": "plottwistnofansub",
+    "Name": "Plot Twist No Fansub",
+    "Theme": "custom",
+    "BaseUrl": "https://plotnofansub.com"
+  },
+  {
+    "Folder": "pzykosis666hfansub",
+    "Name": "Pzykosis666HFansub",
+    "Theme": "foolslide",
+    "BaseUrl": "https://lector.pzykosis666hfansub.com"
+  },
+  {
+    "Folder": "ragnarokscanlation",
+    "Name": "Ragnarok Scanlation",
+    "Theme": "madara",
+    "BaseUrl": "https://ragnarokscanlation.org"
+  },
+  {
+    "Folder": "ragnascans",
+    "Name": "Ragna Scans",
+    "Theme": "custom",
+    "BaseUrl": "https://lector.ragnascan.xyz"
+  },
+  {
+    "Folder": "rakuentranslations",
+    "Name": "Rakuen Translations",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://rakuentranslations.com"
+  },
+  {
+    "Folder": "ravenmanga",
+    "Name": "RavenManga",
+    "Theme": "custom",
+    "BaseUrl": "https://raventard.xyz"
+  },
+  {
+    "Folder": "reizucomics",
+    "Name": "Reizu Comics",
+    "Theme": "custom",
+    "BaseUrl": "https://reizucomics.com"
+  },
+  {
+    "Folder": "richtoscan",
+    "Name": "RichtoScan",
+    "Theme": "madara",
+    "BaseUrl": "https://r1.richtoon.top"
+  },
+  {
+    "Folder": "sapphirescan",
+    "Name": "SapphireScan",
+    "Theme": "zeistmanga",
+    "BaseUrl": "https://www.sapphirescan.com"
+  },
+  {
+    "Folder": "shadowmanga",
+    "Name": "Shadow Manga (+18)",
+    "Theme": "custom",
+    "BaseUrl": "https://shademanga.com"
+  },
+  {
+    "Folder": "skymangas",
+    "Name": "SkyMangas",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://skymangas.com"
+  },
+  {
+    "Folder": "spicyscan",
+    "Name": "Spicy Scan",
+    "Theme": "custom",
+    "BaseUrl": "https://spicyseries.com"
+  },
+  {
+    "Folder": "submanhwa",
+    "Name": "Submanhwa",
+    "Theme": "custom",
+    "BaseUrl": "https://submanhwa.com"
+  },
+  {
+    "Folder": "taurusfansub",
+    "Name": "Taurus Fansub",
+    "Theme": "madara",
+    "BaseUrl": "https://lectortaurus.com"
+  },
+  {
+    "Folder": "templescanesp",
+    "Name": "Temple Scan",
+    "Theme": "madara",
+    "BaseUrl": ""
+  },
+  {
+    "Folder": "tenkaiscan",
+    "Name": "Falco Scan",
+    "Theme": "custom",
+    "BaseUrl": "https://falcoscan.net"
+  },
+  {
+    "Folder": "tmohentaiunoriginal",
+    "Name": "TMOHentai (unoriginal)",
+    "Theme": "custom",
+    "BaseUrl": "https://tmohentai.app"
+  },
+  {
+    "Folder": "tmomanhwa",
+    "Name": "TmoManhwa",
+    "Theme": "yiimanga",
+    "BaseUrl": "https://tmomanhwa.com"
+  },
+  {
+    "Folder": "toones",
+    "Name": "Toon-es",
+    "Theme": "madara",
+    "BaseUrl": "https://toon-es.com"
+  },
+  {
+    "Folder": "topcomicporno",
+    "Name": "TopComicPorno",
+    "Theme": "madara",
+    "BaseUrl": "https://topcomicporno.com"
+  },
+  {
+    "Folder": "topcomicpornonet",
+    "Name": "TopComicPorno.net",
+    "Theme": "madara",
+    "BaseUrl": "https://topcomicporno.net"
+  },
+  {
+    "Folder": "traduccionesmoonlight",
+    "Name": "Traducciones Moonlight",
+    "Theme": "moonlighttl",
+    "BaseUrl": "https://traduccionesmoonlight.com"
+  },
+  {
+    "Folder": "uchuujinprojects",
+    "Name": "Uchuujin Projects",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://uchuujinmangas.com"
+  },
+  {
+    "Folder": "undertranslations",
+    "Name": "UnderTranslations",
+    "Theme": "mangathemesia",
+    "BaseUrl": "https://undertranslations.com"
+  },
+  {
+    "Folder": "vcpvmp",
+    "Name": "VMP",
+    "Theme": "vercomics",
+    "BaseUrl": "https://vermangasporno.com"
+  },
+  {
+    "Folder": "vermanhwas",
+    "Name": "Ver Manhwas",
+    "Theme": "madara",
+    "BaseUrl": "https://vermanhwa.com"
+  },
+  {
+    "Folder": "yupmanga",
+    "Name": "Yupmanga",
+    "Theme": "custom",
+    "BaseUrl": "https://www.yupmanga.com"
+  },
+  {
+    "Folder": "yurionline",
+    "Name": "Yuri-Online",
+    "Theme": "madara",
+    "BaseUrl": "https://yuri-online.com"
+  },
+  {
+    "Folder": "zonatmoorgunoriginal",
+    "Name": "ZonaTMO.org (unoriginal)",
+    "Theme": "custom",
+    "BaseUrl": "https://zonatmo.org"
+  },
+  {
+    "Folder": "zonatmoto",
+    "Name": "Zonatmo.to (unoriginal)",
+    "Theme": "custom",
+    "BaseUrl": "https://zonatmo.to"
+  }
+]

@@ -5,7 +5,7 @@
     "apk": "mangadex.json",
     "lang": "all",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.0",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -46,7 +46,7 @@
     "apk": "lectormangalat.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.0",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -66,7 +66,7 @@
     "apk": "shadowmanga.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.5",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -94,7 +94,7 @@
     "apk": "mangaoni.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.0",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -114,7 +114,7 @@
     "apk": "leermanhwas.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.2",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -134,7 +134,7 @@
     "apk": "bokugentranslation.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.18",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -154,7 +154,7 @@
     "apk": "apollcomics.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.58",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -169,12 +169,12 @@
     ]
   },
   {
-    "name": "DragonTranslation",
+    "name": "DragonTranslation.org",
     "pkg": "eu.kanade.tachiyomi.extension.es.dragontranslationorg",
     "apk": "dragontranslation.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.59",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -201,7 +201,7 @@
     "apk": "cerberusseries.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.1",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -221,7 +221,7 @@
     "apk": "manhwalatino.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.66",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -241,7 +241,7 @@
     "apk": "hadesnofansub.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.60",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -261,7 +261,7 @@
     "apk": "begatranslation.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.58",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -281,7 +281,7 @@
     "apk": "uchuujinprojects.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.2",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -301,7 +301,7 @@
     "apk": "manhwaweb.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.14",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -321,7 +321,7 @@
     "apk": "submanhwa.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.3",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -341,7 +341,7 @@
     "apk": "mangasnosekai.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.75",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -361,7 +361,7 @@
     "apk": "ravenmanga.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.7",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -401,7 +401,7 @@
     "apk": "inmanga.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.1",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -476,12 +476,12 @@
     ]
   },
   {
-    "name": "LMTO Online",
+    "name": "Lmtos",
     "pkg": "eu.kanade.tachiyomi.extension.es.lmtoonline",
     "apk": "lmtoonline.json",
     "lang": "es",
     "code": 1,
-    "version": "1.0.0",
+    "version": "1.6.1",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -557,6 +557,746 @@
         "name": "Zevep",
         "id": "8590845094935985528",
         "baseUrl": "https://zevep.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Inmortal Scan",
+    "pkg": "eu.kanade.tachiyomi.extension.es.inmortalscan",
+    "apk": "inmortalscan.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.60",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Inmortal Scan",
+        "id": "8879875375160764811",
+        "baseUrl": "https://scan-inmortal.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Inventario Oculto",
+    "pkg": "eu.kanade.tachiyomi.extension.es.inventariooculto",
+    "apk": "inventariooculto.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Inventario Oculto",
+        "id": "609477585841458199",
+        "baseUrl": "https://inventariooculto.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Taurus Fansub",
+    "pkg": "eu.kanade.tachiyomi.extension.es.taurusfansub",
+    "apk": "taurusfansub.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.66",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Taurus Fansub",
+        "id": "5157867187592331768",
+        "baseUrl": "https://lectortaurus.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Toon-es",
+    "pkg": "eu.kanade.tachiyomi.extension.es.toones",
+    "apk": "toones.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Toon-es",
+        "id": "5035285034268559598",
+        "baseUrl": "https://toon-es.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "TopComicPorno",
+    "pkg": "eu.kanade.tachiyomi.extension.es.topcomicporno",
+    "apk": "topcomicporno.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "TopComicPorno",
+        "id": "6716313068102878996",
+        "baseUrl": "https://topcomicporno.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "BarManga",
+    "pkg": "eu.kanade.tachiyomi.extension.es.barmanga",
+    "apk": "barmanga.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.66",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "BarManga",
+        "id": "404674447362480247",
+        "baseUrl": "https://archiviumbar.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "ManhwaOnline",
+    "pkg": "eu.kanade.tachiyomi.extension.es.manhwaonline",
+    "apk": "manhwaonline.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.57",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "ManhwaOnline",
+        "id": "5414998368888208528",
+        "baseUrl": "https://manhwa-online.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Ragnarok Scanlation",
+    "pkg": "eu.kanade.tachiyomi.extension.es.ragnarokscanlation",
+    "apk": "ragnarokscanlation.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.58",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Ragnarok Scanlation",
+        "id": "1348827658894665970",
+        "baseUrl": "https://ragnarokscanlation.org",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Yuri-Online",
+    "pkg": "eu.kanade.tachiyomi.extension.es.yurionline",
+    "apk": "yurionline.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Yuri-Online",
+        "id": "3410370616110029377",
+        "baseUrl": "https://yuri-online.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Bymichi Scan",
+    "pkg": "eu.kanade.tachiyomi.extension.es.bymichiscan",
+    "apk": "bymichiscan.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.1",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Bymichi Scan",
+        "id": "4436777272781358384",
+        "baseUrl": "https://bymichiby.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "TopComicPorno.net",
+    "pkg": "eu.kanade.tachiyomi.extension.es.topcomicpornonet",
+    "apk": "topcomicpornonet.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "TopComicPorno.net",
+        "id": "6831269326708750162",
+        "baseUrl": "https://topcomicporno.net",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Es.Mi2Manga",
+    "pkg": "eu.kanade.tachiyomi.extension.es.esmi2manga",
+    "apk": "esmi2manga.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.56",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Es.Mi2Manga",
+        "id": "1024617013674150903",
+        "baseUrl": "https://es.mi2manga.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Kazoku Den",
+    "pkg": "eu.kanade.tachiyomi.extension.es.kazokuden",
+    "apk": "kazokuden.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Kazoku Den",
+        "id": "475788948976592183",
+        "baseUrl": "https://www.kazokuden.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Monopoly Scan",
+    "pkg": "eu.kanade.tachiyomi.extension.es.monopolyscan",
+    "apk": "monopolyscan.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Monopoly Scan",
+        "id": "5862188113261788590",
+        "baseUrl": "https://monopolymanhua.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "NekoScans",
+    "pkg": "eu.kanade.tachiyomi.extension.es.nekoscans",
+    "apk": "nekoscans.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.8",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "NekoScans",
+        "id": "8396340084333456288",
+        "baseUrl": "https://nekoproject.org",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "UnderTranslations",
+    "pkg": "eu.kanade.tachiyomi.extension.es.undertranslations",
+    "apk": "undertranslations.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "UnderTranslations",
+        "id": "6130972683394103021",
+        "baseUrl": "https://undertranslations.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "RichtoScan",
+    "pkg": "eu.kanade.tachiyomi.extension.es.richtoscan",
+    "apk": "richtoscan.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.60",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "RichtoScan",
+        "id": "1245067583654716116",
+        "baseUrl": "https://r1.richtoon.top",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Celestial Moon",
+    "pkg": "eu.kanade.tachiyomi.extension.es.celestialmoon",
+    "apk": "celestialmoon.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.3",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Celestial Moon",
+        "id": "7771256386177960897",
+        "baseUrl": "https://celestialmoonscan.es",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "Bloom Scans",
+    "pkg": "eu.kanade.tachiyomi.extension.es.bloomscans",
+    "apk": "bloomscans.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.3",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Bloom Scans",
+        "id": "2598725055968738551",
+        "baseUrl": "https://bloomscans.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "Harem de Kira",
+    "pkg": "eu.kanade.tachiyomi.extension.es.haremdekira",
+    "apk": "haremdekira.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.59",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Harem de Kira",
+        "id": "1480472727871484054",
+        "baseUrl": "https://kiraproject.lat",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Marmota",
+    "pkg": "eu.kanade.tachiyomi.extension.es.marmota",
+    "apk": "marmota.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Marmota",
+        "id": "5937472249278743372",
+        "baseUrl": "https://marmota.me",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Mundo Manhwa",
+    "pkg": "eu.kanade.tachiyomi.extension.es.mundomanhwa",
+    "apk": "mundomanhwa.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Mundo Manhwa",
+        "id": "7121772696835562045",
+        "baseUrl": "https://mundomanhwa.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Nova Manhwas",
+    "pkg": "eu.kanade.tachiyomi.extension.es.novamanhwa",
+    "apk": "novamanhwa.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Nova Manhwas",
+        "id": "2716608619626653265",
+        "baseUrl": "https://novamanhwa.cc",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "Asia Lotus",
+    "pkg": "eu.kanade.tachiyomi.extension.es.asialotus",
+    "apk": "asialotus.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.1",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Asia Lotus",
+        "id": "3655128076360662290",
+        "baseUrl": "https://asialotuss.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "Luna Pieces",
+    "pkg": "eu.kanade.tachiyomi.extension.es.lunapieces",
+    "apk": "lunapieces.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Luna Pieces",
+        "id": "688847276247637882",
+        "baseUrl": "https://lunapiecesfansub.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "Manga Romance",
+    "pkg": "eu.kanade.tachiyomi.extension.es.mangaromance",
+    "apk": "mangaromance.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Manga Romance",
+        "id": "3857421120061111113",
+        "baseUrl": "https://mangaromance19.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Manga Mukai",
+    "pkg": "eu.kanade.tachiyomi.extension.es.mangashiina",
+    "apk": "mangashiina.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Manga Mukai",
+        "id": "711368877221654433",
+        "baseUrl": "https://mangamukai.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "InfraFandub",
+    "pkg": "eu.kanade.tachiyomi.extension.es.infrafandub",
+    "apk": "infrafandub.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.59",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "InfraFandub",
+        "id": "5594696691862732725",
+        "baseUrl": "https://infrafandub.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "SkyMangas",
+    "pkg": "eu.kanade.tachiyomi.extension.es.skymangas",
+    "apk": "skymangas.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.1",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "SkyMangas",
+        "id": "8713024885922119175",
+        "baseUrl": "https://skymangas.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "Manga TV",
+    "pkg": "eu.kanade.tachiyomi.extension.es.mangatv",
+    "apk": "mangatv.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.3",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Manga  TV",
+        "id": "7214040353404261084",
+        "baseUrl": "https://mangatv.net",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "SamuraiScan",
+    "pkg": "eu.kanade.tachiyomi.extension.es.manhuaonline",
+    "apk": "manhuaonline.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.72",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "SamuraiScan",
+        "id": "5713083996691468192",
+        "baseUrl": "https://samurai.j5z.xyz",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Rakuen Translations",
+    "pkg": "eu.kanade.tachiyomi.extension.es.rakuentranslations",
+    "apk": "rakuentranslations.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Rakuen Translations",
+        "id": "1527666187989988991",
+        "baseUrl": "https://rakuentranslations.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "Ver Manhwas",
+    "pkg": "eu.kanade.tachiyomi.extension.es.vermanhwas",
+    "apk": "vermanhwas.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.57",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Ver Manhwas",
+        "id": "4150746388640244220",
+        "baseUrl": "https://vermanhwa.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "DoujinsHell",
+    "pkg": "eu.kanade.tachiyomi.extension.es.doujinshell",
+    "apk": "doujinshell.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.56",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "DoujinsHell",
+        "id": "7008709488397053596",
+        "baseUrl": "https://doujinshell.net",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "MHScans",
+    "pkg": "eu.kanade.tachiyomi.extension.es.mhscans",
+    "apk": "mhscans.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.69",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "MHScans",
+        "id": "3253304651550496369",
+        "baseUrl": "https://mhscans.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "House Of Otakus",
+    "pkg": "eu.kanade.tachiyomi.extension.es.houseofotakus",
+    "apk": "houseofotakus.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.55",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "House Of Otakus",
+        "id": "1968531533450563052",
+        "baseUrl": "https://houseofotakusv2.xyz",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Temple Scan",
+    "pkg": "eu.kanade.tachiyomi.extension.es.templescanesp",
+    "apk": "templescanesp.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.6.70",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Temple Scan",
+        "id": "3451196845457607826",
+        "baseUrl": "https://aedexnox.syakaihoken-web.com",
         "lang": "es",
         "engine": "madara"
       }
