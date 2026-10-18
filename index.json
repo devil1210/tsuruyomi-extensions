@@ -2,7 +2,7 @@
   {
     "name": "MangaDex",
     "pkg": "eu.kanade.tachiyomi.extension.all.mangadex",
-    "apk": "mangadex.apk",
+    "apk": "mangadex.json",
     "lang": "all",
     "code": 1,
     "version": "1.0.0",
@@ -11,17 +11,39 @@
     "hasChangelog": 0,
     "sources": [
       {
-        "name": "MangaDex",
+        "name": "MangaDex (ES)",
+        "id": "6400665728063187402",
+        "baseUrl": "https://mangadex.org",
+        "lang": "es",
+        "engine": "mangadex"
+      },
+      {
+        "name": "MangaDex (EN)",
         "id": "2499283573021220255",
         "baseUrl": "https://mangadex.org",
-        "lang": "all"
+        "lang": "en",
+        "engine": "mangadex"
+      },
+      {
+        "name": "MangaDex (ES-419)",
+        "id": "4938773340256184018",
+        "baseUrl": "https://mangadex.org",
+        "lang": "es-419",
+        "engine": "mangadex"
+      },
+      {
+        "name": "MangaDex (ALL)",
+        "id": "4638673959522768501",
+        "baseUrl": "https://mangadex.org",
+        "lang": "all",
+        "engine": "mangadex"
       }
     ]
   },
   {
-    "name": "LectorManga",
-    "pkg": "eu.kanade.tachiyomi.extension.es.lectormanga",
-    "apk": "lectormanga.apk",
+    "name": "LectorManga.lat",
+    "pkg": "eu.kanade.tachiyomi.extension.es.lectormangalat",
+    "apk": "lectormangalat.json",
     "lang": "es",
     "code": 1,
     "version": "1.0.0",
@@ -31,16 +53,17 @@
     "sources": [
       {
         "name": "LectorManga",
-        "id": "7876807897109278453",
+        "id": "7178038133263703638",
         "baseUrl": "https://lectormanga.com",
-        "lang": "es"
+        "lang": "es",
+        "engine": "lectormanga"
       }
     ]
   },
   {
-    "name": "ShadowManga",
+    "name": "Shadow Manga",
     "pkg": "eu.kanade.tachiyomi.extension.es.shadowmanga",
-    "apk": "shadowmanga.apk",
+    "apk": "shadowmanga.json",
     "lang": "es",
     "code": 1,
     "version": "1.0.0",
@@ -49,17 +72,26 @@
     "hasChangelog": 0,
     "sources": [
       {
-        "name": "ShadowManga",
-        "id": "7139158766157580649",
-        "baseUrl": "https://shadowmangas.com",
-        "lang": "es"
+        "name": "Shadow Manga",
+        "id": "5649269152264667286",
+        "baseUrl": "https://shademanga.com",
+        "lang": "es",
+        "engine": "shadowmanga"
+      },
+      {
+        "name": "Shadow Manga (+18)",
+        "id": "1340622632921674920",
+        "baseUrl": "https://shademanga.com",
+        "lang": "es",
+        "engine": "shadowmanga",
+        "contentWarning": 2
       }
     ]
   },
   {
     "name": "MangaOni",
-    "pkg": "eu.kanade.tachiyomi.extension.es.mangaoni",
-    "apk": "mangaoni.apk",
+    "pkg": "eu.kanade.tachiyomi.extension.es.mangamx",
+    "apk": "mangaoni.json",
     "lang": "es",
     "code": 1,
     "version": "1.0.0",
@@ -69,9 +101,464 @@
     "sources": [
       {
         "name": "MangaOni",
-        "id": "7209935400974864817",
-        "baseUrl": "https://mangaoni.com",
-        "lang": "es"
+        "id": "2202687009511923782",
+        "baseUrl": "https://manga-oni.com",
+        "lang": "es",
+        "engine": "mangaoni"
+      }
+    ]
+  },
+  {
+    "name": "LeerManhwas",
+    "pkg": "eu.kanade.tachiyomi.extension.es.leermanhwas",
+    "apk": "leermanhwas.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "LeerManhwas",
+        "id": "8701445043633550960",
+        "baseUrl": "https://leermanhwas.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "BokugenTranslation",
+    "pkg": "eu.kanade.tachiyomi.extension.es.bokugentranslation",
+    "apk": "bokugentranslation.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "BokugenTranslation",
+        "id": "1598762687295904337",
+        "baseUrl": "https://bokugentranslation.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "ApollComics",
+    "pkg": "eu.kanade.tachiyomi.extension.es.apollcomics",
+    "apk": "apollcomics.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "ApollComics",
+        "id": "3044113561993269522",
+        "baseUrl": "https://apollcomics.xyz",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "DragonTranslation",
+    "pkg": "eu.kanade.tachiyomi.extension.es.dragontranslationorg",
+    "apk": "dragontranslation.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "DragonTranslation",
+        "id": "4647982373411241498",
+        "baseUrl": "https://dragontranslation.org",
+        "lang": "es",
+        "engine": "madara"
+      },
+      {
+        "name": "DragonTranslation.net",
+        "id": "7541593615312027809",
+        "baseUrl": "https://dragontranslation.org",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Cerberus Series",
+    "pkg": "eu.kanade.tachiyomi.extension.es.cerberusseries",
+    "apk": "cerberusseries.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Cerberus Series",
+        "id": "1814471239661920836",
+        "baseUrl": "https://cerberuseries.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Manhwa-Latino",
+    "pkg": "eu.kanade.tachiyomi.extension.es.manhwalatino",
+    "apk": "manhwalatino.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Manhwa-Latino",
+        "id": "3548601371328353875",
+        "baseUrl": "https://manhwalatino.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Hades no Fansub",
+    "pkg": "eu.kanade.tachiyomi.extension.es.hadesnofansub",
+    "apk": "hadesnofansub.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Hades no Fansub",
+        "id": "8311505150576608267",
+        "baseUrl": "https://hadesnofansub.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Bega Translation",
+    "pkg": "eu.kanade.tachiyomi.extension.es.begatranslation",
+    "apk": "begatranslation.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Bega Translation",
+        "id": "6757330205319558057",
+        "baseUrl": "https://begatranslation.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Uchuujin Projects",
+    "pkg": "eu.kanade.tachiyomi.extension.es.uchuujinprojects",
+    "apk": "uchuujinprojects.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Uchuujin Projects",
+        "id": "3953107753690791431",
+        "baseUrl": "https://uchuujinmangas.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "ManhwaWeb",
+    "pkg": "eu.kanade.tachiyomi.extension.es.manhwaweb",
+    "apk": "manhwaweb.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "ManhwaWeb",
+        "id": "5943212552955476721",
+        "baseUrl": "https://manhwa-web.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "Submanhwa",
+    "pkg": "eu.kanade.tachiyomi.extension.es.submanhwa",
+    "apk": "submanhwa.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Submanhwa",
+        "id": "1136717301008230074",
+        "baseUrl": "https://submanhwa.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "Mangas No Sekai",
+    "pkg": "eu.kanade.tachiyomi.extension.es.mangasnosekai",
+    "apk": "mangasnosekai.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Mangas No Sekai",
+        "id": "829053423099062956",
+        "baseUrl": "https://mangasnosekai.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "RavenManga",
+    "pkg": "eu.kanade.tachiyomi.extension.es.ravenmanga",
+    "apk": "ravenmanga.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "RavenManga",
+        "id": "698913079501532785",
+        "baseUrl": "https://ravenmanga.com",
+        "lang": "es",
+        "engine": "mangathemesia"
+      }
+    ]
+  },
+  {
+    "name": "TuMangaOnline",
+    "pkg": "eu.kanade.tachiyomi.extension.es.tumangaonline",
+    "apk": "tumangaonline.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "TuMangaOnline",
+        "id": "7925520943983324764",
+        "baseUrl": "https://visortmo.com",
+        "lang": "es",
+        "engine": "tmo"
+      }
+    ]
+  },
+  {
+    "name": "InManga",
+    "pkg": "eu.kanade.tachiyomi.extension.es.inmanga",
+    "apk": "inmanga.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "InManga",
+        "id": "4146344224513899730",
+        "baseUrl": "https://inmanga.com",
+        "lang": "es",
+        "engine": "inmanga"
+      }
+    ]
+  },
+  {
+    "name": "NineManga",
+    "pkg": "eu.kanade.tachiyomi.extension.es.ninemanga",
+    "apk": "ninemanga.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "NineMangaEs",
+        "id": "4097111295486074350",
+        "baseUrl": "https://es.ninemanga.com",
+        "lang": "es",
+        "engine": "ninemanga"
+      }
+    ]
+  },
+  {
+    "name": "NineManga (EN)",
+    "pkg": "eu.kanade.tachiyomi.extension.en.ninemanga",
+    "apk": "ninemangaen.json",
+    "lang": "en",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "NineMangaEn",
+        "id": "120391793502126753",
+        "baseUrl": "https://ninemanga.com",
+        "lang": "en",
+        "engine": "ninemanga"
+      }
+    ]
+  },
+  {
+    "name": "Bato.to",
+    "pkg": "eu.kanade.tachiyomi.extension.all.batoto",
+    "apk": "batoto.json",
+    "lang": "all",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Bato.to",
+        "id": "4531444389842992129",
+        "baseUrl": "https://bato.to",
+        "lang": "all",
+        "engine": "batoto"
+      }
+    ]
+  },
+  {
+    "name": "LMTO Online",
+    "pkg": "eu.kanade.tachiyomi.extension.es.lmtoonline",
+    "apk": "lmtoonline.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "LMTO Online",
+        "id": "3752522006902890093",
+        "baseUrl": "https://lmto.org",
+        "lang": "es",
+        "engine": "madara"
+      },
+      {
+        "name": "Lmtos",
+        "id": "7732736838916328250",
+        "baseUrl": "https://lmto.org",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Manhwas.net",
+    "pkg": "eu.kanade.tachiyomi.extension.es.manhwasnet",
+    "apk": "manhwasnet.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Manhwas.net",
+        "id": "1326771034671033762",
+        "baseUrl": "https://manhwas.net",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Jobsibe",
+    "pkg": "eu.kanade.tachiyomi.extension.es.jobsibe",
+    "apk": "jobsibe.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Jobsibe",
+        "id": "3903750533251938295",
+        "baseUrl": "https://jobsibe.com",
+        "lang": "es",
+        "engine": "madara"
+      }
+    ]
+  },
+  {
+    "name": "Zevep",
+    "pkg": "eu.kanade.tachiyomi.extension.es.zevep",
+    "apk": "zevep.json",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "Zevep",
+        "id": "8590845094935985528",
+        "baseUrl": "https://zevep.com",
+        "lang": "es",
+        "engine": "madara"
       }
     ]
   }
