@@ -1,0 +1,78 @@
+[
+  {
+    "name": "MangaDex",
+    "pkg": "eu.kanade.tachiyomi.extension.all.mangadex",
+    "apk": "mangadex.apk",
+    "lang": "all",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "MangaDex",
+        "id": "2499283573021220255",
+        "baseUrl": "https://mangadex.org",
+        "lang": "all"
+      }
+    ]
+  },
+  {
+    "name": "LectorManga",
+    "pkg": "eu.kanade.tachiyomi.extension.es.lectormanga",
+    "apk": "lectormanga.apk",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "LectorManga",
+        "id": "7876807897109278453",
+        "baseUrl": "https://lectormanga.com",
+        "lang": "es"
+      }
+    ]
+  },
+  {
+    "name": "ShadowManga",
+    "pkg": "eu.kanade.tachiyomi.extension.es.shadowmanga",
+    "apk": "shadowmanga.apk",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "ShadowManga",
+        "id": "7139158766157580649",
+        "baseUrl": "https://shadowmangas.com",
+        "lang": "es"
+      }
+    ]
+  },
+  {
+    "name": "MangaOni",
+    "pkg": "eu.kanade.tachiyomi.extension.es.mangaoni",
+    "apk": "mangaoni.apk",
+    "lang": "es",
+    "code": 1,
+    "version": "1.0.0",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "MangaOni",
+        "id": "7209935400974864817",
+        "baseUrl": "https://mangaoni.com",
+        "lang": "es"
+      }
+    ]
+  }
+]
