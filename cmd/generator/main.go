@@ -66,16 +66,34 @@ type TsuruSource struct {
 }
 
 type ThemeMapping struct {
+	Lang    string `json:"Lang"`
 	Folder  string `json:"Folder"`
 	Name    string `json:"Name"`
 	Theme   string `json:"Theme"`
 	BaseURL string `json:"BaseURL"`
 }
 
-func main() {
-	fmt.Println("=== Tsuruyomi Extension Catalog Generator ===")
+func isRelevantLang(lang string) bool {
+	l := strings.ToLower(strings.TrimSpace(lang))
+	return strings.HasPrefix(l, "es") || strings.HasPrefix(l, "en") || l == "all"
+}
 
-	// 1. Load existing index.json
+func normalizeEngine(theme string) string {
+	t := strings.ToLower(strings.TrimSpace(theme))
+	switch t {
+	case "madara", "yiimadara", "madaranoajax":
+		return "madara"
+	case "mangathemesia":
+		return "mangathemesia"
+	default:
+		return ""
+	}
+}
+
+func main() {
+	fmt.Println("=== Tsuruyomi Extension Catalog Generator (ES / EN / ALL) ===")
+
+	// 1. Load existing curated index.json
 	indexPath := filepath.Join(".", "index.json")
 	var existing []TsuruExtension
 	if data, err := os.ReadFile(indexPath); err == nil {
@@ -88,22 +106,41 @@ func main() {
 		existingByPkg[ext.Pkg] = ext
 	}
 
-	// 2. Load theme mappings
+	// 2. Load theme mappings (es, en, all)
 	themeMap := make(map[string]ThemeMapping)
+	if data, err := os.ReadFile("all_themes_map.json"); err == nil {
+		var list []ThemeMapping
+		if err := json.Unmarshal(data, &list); err == nil {
+			for _, m := range list {
+				// Key by exact package name suffix: lang.folder
+				pkgKey := fmt.Sprintf("%s.%s", strings.ToLower(m.Lang), strings.ToLower(m.Folder))
+				themeMap[pkgKey] = m
+				themeMap[strings.ToLower(m.Folder)] = m
+				themeMap[strings.ToLower(strings.ReplaceAll(m.Name, " ", ""))] = m
+			}
+			fmt.Printf("Loaded %d theme mappings from all_themes_map.json\n", len(list))
+		}
+	}
+
+	// Also load keiyoushi_es_themes.json for any extra fallback
 	if data, err := os.ReadFile("keiyoushi_es_themes.json"); err == nil {
 		var list []ThemeMapping
 		if err := json.Unmarshal(data, &list); err == nil {
 			for _, m := range list {
-				themeMap[strings.ToLower(m.Folder)] = m
-				themeMap[strings.ToLower(strings.ReplaceAll(m.Name, " ", ""))] = m
+				pkgKey := fmt.Sprintf("es.%s", strings.ToLower(m.Folder))
+				if _, exists := themeMap[pkgKey]; !exists {
+					themeMap[pkgKey] = m
+				}
+				if _, exists := themeMap[strings.ToLower(m.Folder)]; !exists {
+					themeMap[strings.ToLower(m.Folder)] = m
+				}
 			}
-			fmt.Printf("Loaded %d theme mappings from keiyoushi_es_themes.json\n", len(list))
 		}
 	}
 
 	// 3. Fetch Keiyoushi index.json
 	fmt.Println("Fetching Keiyoushi index.json...")
-	client := &http.Client{Timeout: 30 * time.Second}
+	client := &http.Client{Timeout: 35 * time.Second}
 	resp, err := client.Get("https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.json")
 	if err != nil {
 		log.Fatalf("Error fetching Keiyoushi index: %v", err)
@@ -125,6 +162,8 @@ func main() {
 	// 4. Merge and process extensions
 	addedCount := 0
 	updatedCount := 0
+	skippedNoTheme := 0
+	skippedLang := 0
 
 	for _, kExt := range keiRepo.ExtensionList.Extensions {
 		pkg := kExt.PackageName
@@ -134,7 +173,6 @@ func main() {
 
 		// Check if already in our curated repository
 		if cur, ok := existingByPkg[pkg]; ok {
-			// Update version/icon if newer
 			cur.Name = kExt.Name
 			if kExt.VersionName != "" {
 				cur.Version = kExt.VersionName
@@ -144,38 +182,52 @@ func main() {
 			continue
 		}
 
-		// Detect if it's Spanish or relevant
-		isSpanish := strings.Contains(pkg, ".extension.es.")
-		if !isSpanish {
+		// Check language relevance
+		// Check if pkg contains .es., .es-419., .en., .all.
+		parts := strings.Split(pkg, ".")
+		langSegment := ""
+		if len(parts) >= 5 {
+			langSegment = parts[len(parts)-2]
+		}
+
+		isRelevant := isRelevantLang(langSegment)
+		if !isRelevant {
 			for _, s := range kExt.Sources {
-				if s.Language == "es" || s.Language == "es-419" {
-					isSpanish = true
+				if isRelevantLang(s.Language) {
+					isRelevant = true
+					if langSegment == "" {
+						langSegment = s.Language
+					}
 					break
 				}
 			}
 		}
 
-		// If not Spanish, skip for now to keep catalog focused and clean
-		if !isSpanish {
+		if !isRelevant {
+			skippedLang++
 			continue
 		}
 
-		// Look up theme from our theme mapping
-		parts := strings.Split(pkg, ".")
+		// Look up theme
 		shortName := strings.ToLower(parts[len(parts)-1])
+		pkgKey := fmt.Sprintf("%s.%s", strings.ToLower(langSegment), shortName)
 
-		mapping, hasTheme := themeMap[shortName]
+		mapping, hasTheme := themeMap[pkgKey]
+		if !hasTheme {
+			mapping, hasTheme = themeMap[shortName]
+		}
 		if !hasTheme {
 			mapping, hasTheme = themeMap[strings.ToLower(strings.ReplaceAll(kExt.Name, " ", ""))]
 		}
 
-		engine := ""
+		rawTheme := ""
 		if hasTheme {
-			engine = mapping.Theme
+			rawTheme = mapping.Theme
 		}
 
-		// Only import if it uses a supported native engine (madara, mangathemesia)
-		if engine != "madara" && engine != "mangathemesia" {
+		engine := normalizeEngine(rawTheme)
+		if engine == "" {
+			skippedNoTheme++
 			continue
 		}
 
@@ -187,11 +239,20 @@ func main() {
 			if base == "" && hasTheme && mapping.BaseURL != "" {
 				base = mapping.BaseURL
 			}
+			if base == "" {
+				continue
+			}
+
+			srcLang := s.Language
+			if srcLang == "" {
+				srcLang = langSegment
+			}
+
 			tSources = append(tSources, TsuruSource{
 				Name:    s.Name,
 				ID:      idStr,
 				BaseURL: base,
-				Lang:    s.Language,
+				Lang:    srcLang,
 				Engine:  engine,
 			})
 		}
@@ -215,16 +276,16 @@ func main() {
 			vCode = int64(vc)
 		}
 
-		lang := "es"
-		if len(tSources) > 0 && tSources[0].Lang != "" {
-			lang = tSources[0].Lang
+		mainLang := langSegment
+		if mainLang == "" && len(tSources) > 0 {
+			mainLang = tSources[0].Lang
 		}
 
 		newExt := TsuruExtension{
 			Name:    kExt.Name,
 			Pkg:     pkg,
 			Apk:     shortName + ".json",
-			Lang:    lang,
+			Lang:    mainLang,
 			Code:    vCode,
 			Version: kExt.VersionName,
 			Nsfw:    nsfwVal,
@@ -237,7 +298,6 @@ func main() {
 
 	// 5. Build final list maintaining stable ordering
 	var finalList []TsuruExtension
-	// Put original existing items first
 	seen := make(map[string]bool)
 	for _, ext := range existing {
 		if updated, ok := existingByPkg[ext.Pkg]; ok {
@@ -245,7 +305,6 @@ func main() {
 			seen[ext.Pkg] = true
 		}
 	}
-	// Append newly added extensions
 	for pkg, ext := range existingByPkg {
 		if !seen[pkg] {
 			finalList = append(finalList, ext)
@@ -263,6 +322,7 @@ func main() {
 	}
 
 	fmt.Printf("Successfully generated %s!\n", indexPath)
-	fmt.Printf("Total extensions in catalog: %d (Curated/Existing: %d, Newly Imported from Keiyoushi: %d)\n",
+	fmt.Printf("Total extensions in catalog: %d (Curated: %d, Newly Imported: %d)\n",
 		len(finalList), len(existing), addedCount)
+	fmt.Printf("Skipped non-target languages: %d | Skipped unmapped themes: %d\n", skippedLang, skippedNoTheme)
 }
