@@ -381,8 +381,9 @@
     "Folder": "manhwalatino",
     "Name": "Manhwa-Latino",
     "Theme": "madara",
-    "BaseUrl": ""
+    "BaseUrl": "https://manhwalatino.org"
   },
+
   {
     "Folder": "manhwaonline",
     "Name": "ManhwaOnline",

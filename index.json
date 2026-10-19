@@ -229,7 +229,7 @@
       {
         "name": "Manhwa-Latino",
         "id": "3548601371328353875",
-        "baseUrl": "https://manhwalatino.com",
+        "baseUrl": "https://manhwalatino.org",
         "lang": "es",
         "engine": "madara"
       }
@@ -249,11 +249,12 @@
       {
         "name": "Hades no Fansub",
         "id": "8311505150576608267",
-        "baseUrl": "https://hadesnofansub.com",
+        "baseUrl": "https://lectorhades.latamtoon.com",
         "lang": "es",
         "engine": "madara"
       }
     ]
+
   },
   {
     "name": "Bega Translation",
