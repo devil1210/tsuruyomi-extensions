@@ -142,9 +142,9 @@
       {
         "name": "BokugenTranslation",
         "id": "1598762687295904337",
-        "baseUrl": "https://bokugentranslation.com",
+        "baseUrl": "https://bokugents.com",
         "lang": "es",
-        "engine": "madara"
+        "engine": "mangathemesia"
       }
     ]
   },
@@ -254,7 +254,6 @@
         "engine": "madara"
       }
     ]
-
   },
   {
     "name": "Bega Translation",
@@ -332,7 +331,7 @@
         "id": "1136717301008230074",
         "baseUrl": "https://submanhwa.com",
         "lang": "es",
-        "engine": "mangathemesia"
+        "engine": "custom"
       }
     ]
   },
