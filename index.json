@@ -173,8 +173,8 @@
     "pkg": "eu.kanade.tachiyomi.extension.es.dragontranslationorg",
     "apk": "dragontranslation.json",
     "lang": "es",
-    "code": 1,
-    "version": "1.6.59",
+    "code": 2,
+    "version": "1.6.60",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -200,8 +200,8 @@
     "pkg": "eu.kanade.tachiyomi.extension.es.cerberusseries",
     "apk": "cerberusseries.json",
     "lang": "es",
-    "code": 1,
-    "version": "1.6.1",
+    "code": 2,
+    "version": "1.6.2",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -209,9 +209,9 @@
       {
         "name": "Cerberus Series",
         "id": "1814471239661920836",
-        "baseUrl": "https://cerberuseries.com",
+        "baseUrl": "https://legionscans.com/wp",
         "lang": "es",
-        "engine": "madara"
+        "engine": "mangathemesia"
       }
     ]
   },
@@ -260,8 +260,8 @@
     "pkg": "eu.kanade.tachiyomi.extension.es.begatranslation",
     "apk": "begatranslation.json",
     "lang": "es",
-    "code": 1,
-    "version": "1.6.58",
+    "code": 2,
+    "version": "1.6.59",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -320,8 +320,8 @@
     "pkg": "eu.kanade.tachiyomi.extension.es.submanhwa",
     "apk": "submanhwa.json",
     "lang": "es",
-    "code": 1,
-    "version": "1.6.3",
+    "code": 2,
+    "version": "1.6.4",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -340,8 +340,8 @@
     "pkg": "eu.kanade.tachiyomi.extension.es.mangasnosekai",
     "apk": "mangasnosekai.json",
     "lang": "es",
-    "code": 1,
-    "version": "1.6.75",
+    "code": 2,
+    "version": "1.6.76",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -351,7 +351,7 @@
         "id": "829053423099062956",
         "baseUrl": "https://mangasnosekai.com",
         "lang": "es",
-        "engine": "mangathemesia"
+        "engine": "madara"
       }
     ]
   },
@@ -507,8 +507,8 @@
     "pkg": "eu.kanade.tachiyomi.extension.es.manhwasnet",
     "apk": "manhwasnet.json",
     "lang": "es",
-    "code": 1,
-    "version": "1.0.0",
+    "code": 2,
+    "version": "1.0.1",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
@@ -516,7 +516,7 @@
       {
         "name": "Manhwas.net",
         "id": "1326771034671033762",
-        "baseUrl": "https://manhwas.net",
+        "baseUrl": "https://manhwa-es.com",
         "lang": "es",
         "engine": "madara"
       }
@@ -707,8 +707,8 @@
     "pkg": "eu.kanade.tachiyomi.extension.es.ragnarokscanlation",
     "apk": "ragnarokscanlation.json",
     "lang": "es",
-    "code": 1,
-    "version": "1.6.58",
+    "code": 2,
+    "version": "1.6.59",
     "nsfw": 0,
     "hasReadme": 0,
     "hasChangelog": 0,
